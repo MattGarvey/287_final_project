@@ -1,0 +1,12 @@
+
+State Machine - |graphingCalc|S
+Name S.RESET S.L1S S.START 
+S.RESET 0 0 0 
+S.START 1 0 1 
+S.L1S 1 1 0 
+
+State Machine - |graphingCalc|calculatorOne:inputstuffpls|S
+Name S.CHANGE S.DONE S.SAVING 
+S.CHANGE 0 0 0 
+S.SAVING 1 0 1 
+S.DONE 1 1 0 
